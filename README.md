@@ -6,4 +6,5 @@ Some people say it would be nice to change tempo without stopping, but this isn'
 It would be much more cool in my opinion to get it plugged in to Garage Band or other DAW software, with a lead-in count. 
 The SVG image is widely available but I didn't check the license. 
 Supplied without node modules: use >yarn install or >npm install.
-Bootstrapped using create-react-app from Facebook.
+Bootstrapped using create-react-app from Facebook. 
+Demo: http://dontpanic.website/metronome/
