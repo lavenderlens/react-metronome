@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+:root {
+  /* --tempo: {this.props.bpm/60}; */
+}
+
+.App-logo {
+  /* use wobble on load, swing on start */
+  /* animation: wobble infinite 3s linear; */
+
+  animation: swing infinite 1s linear;
+  /* animation: swing infinite var(--tempo) linear; */
+
+  /* make 2nd arg a variable bpm props-derived */
+  /* need to raise bpm to app */
+  /*  and pass back down as props to metronome*/
+  /* or make visual part of the metronome component */
+  height: 40vmin;
+}
+
+.App-header, .metronome {
+  background-color: ivory;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: #1C5D99;
+}
+
+.App-link {
+  color:#1C5D99;
+}
+
+
