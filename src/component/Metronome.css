@@ -1,0 +1,70 @@
+.tick{
+    color: #1C5D99;
+    text-align: center;
+}
+.button{
+    width:4em;
+    height:2em;
+    font-size: 2em;
+    line-height: 2em;
+    border-radius: 0.2em;
+    background: #1C5D99;
+    color:#fffff0;
+
+}
+.button-pressed{
+    background:#848FA5;
+    width:4em;
+    height:2em;
+    font-size: 2em;
+    line-height: 2em;
+    border-radius: 0.2em;
+    color:#fffff0;
+}
+.bpm-slider input {
+    width: 75vw;
+    /* margin: 0.5em; */
+}
+input[type*="radio"]{
+  margin-left:2em;
+}
+input[type*="radio"], label{
+  margin-top: 1em;
+}
+input[type*="range"]{
+  margin-bottom: 2em;
+}
+/* .signature{
+  width: 75vw;
+  align-items: center;
+  justify-content: center;
+} */
+
+  :root {
+    /* --tempo: {this.props.bpm/60}; */
+  }
+  
+
+  .wobble{
+    animation: wobble infinite 3s linear;
+    height: 40vmin;
+  }
+  .swing{
+    animation: swing infinite 1s linear;
+    height: 40vmin;
+  }
+  
+.metronome {
+    background-color: ivory;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    font-size: calc(10px + 2vmin);
+    color: #1C5D99;
+  }
+  
+  .App-link {
+    color:#1C5D99;
+  }
